@@ -64,6 +64,7 @@ library
                      , transformers
                      , transformers-except
 
+                     , cardano-binary
                      , cardano-crypto
                      , cardano-crypto-wrapper
                      , cardano-crypto-class

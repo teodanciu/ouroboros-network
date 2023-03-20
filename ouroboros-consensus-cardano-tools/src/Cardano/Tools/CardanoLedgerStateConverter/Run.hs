@@ -77,6 +77,7 @@ convert Config{dbDir, snapShot} = do
               ShelleyCodecConfig
               ShelleyCodecConfig
               ShelleyCodecConfig
+              ShelleyCodecConfig
       in decodeExtLedgerState
            (decodeDisk @(CardanoBlock StandardCrypto) ccfg)
            (decodeDisk @(CardanoBlock StandardCrypto) ccfg)
